@@ -10,36 +10,36 @@
 
 <body>
     <!-- Nav-bar -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
     <!-- Main Body area -->
     <main>
-<!-- Hero section -->
+        <!-- Hero section -->
         <section class="hero">
             <div class="box"></div>
             <div class="name">
                 <h1>Nitin</h1>
                 <p>BCA Student | Front-End Developer</p>
-                <a href="#work" class="btn">View Projects</a>
+                <a href="#projects" class="btn">View Projects</a>
             </div>
         </section>
         <div class="ver-line"></div>
         <!-- About Section -->
         <section id="about" class="about-me">
+            <h2>About me</h2>
             <h2 class="About-Heading">
                 I am learning web development and creating responsive web pages using HTML and CSS.
                 I focus on clean layout, proper structure, and real-world practice.
             </h2>
             <div class="me">
-
                 <img src="Images/My.jpg" alt="">
                 <div>
                     <p>I am currently pursuing BCA and learning web development with a strong focus on HTML, CSS,
@@ -66,9 +66,53 @@
             </div>
         </section>
         <div class="ver-line"></div>
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+
+            <div class="project-container">
+
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>Personal portfolio built using HTML and CSS.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/thenitin238/Portfolio" target="_blank">Source Code</a>
+                        <a href="https://thenitin238.github.io/Portfolio/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Login Page</h3>
+                    <p>Responsive login form UI using HTML and CSS.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/thenitin238/Login-Page" target="_blank">Source Code</a>
+                        <a href="https://thenitin238.github.io/Login-Page/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Calculator</h3>
+                    <p>Functional calculator using HTML, CSS, and JavaScript.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/thenitin238/Calculator" target="_blank">Source Code</a>
+                        <a href="https://thenitin238.github.io/Calculator/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>To-Do List</h3>
+                    <p>Task management app with add and delete functionality.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/thenitin238/To-do-list1" target="_blank">Source Code</a>
+                        <a href="https://thenitin238.github.io/To-do-list1/" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="ver-line"></div>
         <!-- Contact Section -->
         <section id="contact" class="contact">
-            <form method="post">
+            <form id="contactform" method="post">
                 <h2>Contac Me</h2>
                 <input type="text" placeholder="Name" required>
                 <input type="email" placeholder="Email" required>
@@ -94,4 +138,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
