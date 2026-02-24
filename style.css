@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
  /* MObile */
  @media (max-width: 480px) {
-     .about-heading {
+     .About-Heading {
          font-size: 20px;
      }
 
@@ -163,12 +163,12 @@ html{
      height: 150px;
      border-radius: 10px;
      border: 2px solid #f6eaea;
-     transition: 0.4s;
+     transition: 0.5s;
  }
 .me img:hover{
     transform: scale(1.20);
-    border: 3px #000;
-    box-shadow: 0 0 30px #020617;
+    border: 5px #000;
+    box-shadow: 0 0 20px #dfdfe2;
 }
  .me div {
      font-family: "Martel Sans", sans-serif;
@@ -241,17 +241,17 @@ html{
      padding: 8px 15px;
      text-decoration: none;
      background: #007bff;
-     color: white;
-     border-radius: 5px;
+     color: rgb(13, 13, 13);
+     border-radius: 8px;
      font-size: 16px;
      font-weight: 600;
-     transition: 0.3s;
+     transition: 0.4s;
  }
 
  .project-links a:hover {
      background: #66abf4;
      transform: scale(1.07);
-     box-shadow: 0 0 20px #73b2f5;
+     box-shadow: 0 0 10px #f2f2f5;
 
  }
 
@@ -280,12 +280,12 @@ html{
      flex-direction: column;
      gap: 12px;
      border-radius: 10px;
-     transition: 0.5s;
+     transition: 0.4s;
  }
 
  .contact form:hover {
      transform: scale(1.05);
-     box-shadow: 0 0 30px rgb(17, 17, 17);
+     box-shadow: 0 0 30px rgba(237, 233, 233, 0.5);
  }
 
  .contact input,
@@ -319,7 +319,7 @@ html{
  }
 
  .contact button:hover {
-     box-shadow: 0 0 20px #38bdf8;
+     box-shadow: 0 0 20px #6ea3b7;
  }
 
  /* Footer */
